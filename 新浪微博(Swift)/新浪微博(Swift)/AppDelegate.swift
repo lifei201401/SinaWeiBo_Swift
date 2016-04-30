@@ -16,6 +16,24 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
+        
+        //初始化一个窗口
+        window = UIWindow(frame: UIScreen.mainScreen().bounds)
+        
+        //设置背景颜色
+        window?.backgroundColor = UIColor.whiteColor()
+        
+        
+        //初始化一个控制器
+        
+        window?.rootViewController = MainViewController()
+        
+        window?.makeKeyAndVisible()
+        
+        
+        
+        
+        
         return true
     }
 
