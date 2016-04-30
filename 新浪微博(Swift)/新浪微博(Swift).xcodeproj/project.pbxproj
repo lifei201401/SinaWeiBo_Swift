@@ -1,0 +1,506 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DCE722B91CD4D81F001E4735 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE722B81CD4D81F001E4735 /* AppDelegate.swift */; };
+		DCE722BB1CD4D81F001E4735 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE722BA1CD4D81F001E4735 /* ViewController.swift */; };
+		DCE722BE1CD4D81F001E4735 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCE722BC1CD4D81F001E4735 /* Main.storyboard */; };
+		DCE722C01CD4D81F001E4735 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCE722BF1CD4D81F001E4735 /* Assets.xcassets */; };
+		DCE722C31CD4D81F001E4735 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCE722C11CD4D81F001E4735 /* LaunchScreen.storyboard */; };
+		DCE722CE1CD4D81F001E4735 /* _____Swift_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE722CD1CD4D81F001E4735 /* _____Swift_Tests.swift */; };
+		DCE722D91CD4D81F001E4735 /* _____Swift_UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE722D81CD4D81F001E4735 /* _____Swift_UITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DCE722CA1CD4D81F001E4735 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DCE722AD1CD4D81F001E4735 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DCE722B41CD4D81F001E4735;
+			remoteInfo = "新浪微博(Swift)";
+		};
+		DCE722D51CD4D81F001E4735 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DCE722AD1CD4D81F001E4735 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DCE722B41CD4D81F001E4735;
+			remoteInfo = "新浪微博(Swift)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DCE722B51CD4D81F001E4735 /* 新浪微博(Swift).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "新浪微博(Swift).app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCE722B81CD4D81F001E4735 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DCE722BA1CD4D81F001E4735 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DCE722BD1CD4D81F001E4735 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DCE722BF1CD4D81F001E4735 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DCE722C21CD4D81F001E4735 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DCE722C41CD4D81F001E4735 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCE722C91CD4D81F001E4735 /* 新浪微博(Swift)Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "新浪微博(Swift)Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCE722CD1CD4D81F001E4735 /* _____Swift_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_____Swift_Tests.swift"; sourceTree = "<group>"; };
+		DCE722CF1CD4D81F001E4735 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCE722D41CD4D81F001E4735 /* 新浪微博(Swift)UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "新浪微博(Swift)UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCE722D81CD4D81F001E4735 /* _____Swift_UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_____Swift_UITests.swift"; sourceTree = "<group>"; };
+		DCE722DA1CD4D81F001E4735 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DCE722B21CD4D81F001E4735 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCE722C61CD4D81F001E4735 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCE722D11CD4D81F001E4735 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DCE722AC1CD4D81F001E4735 = {
+			isa = PBXGroup;
+			children = (
+				DCE722B71CD4D81F001E4735 /* 新浪微博(Swift) */,
+				DCE722CC1CD4D81F001E4735 /* 新浪微博(Swift)Tests */,
+				DCE722D71CD4D81F001E4735 /* 新浪微博(Swift)UITests */,
+				DCE722B61CD4D81F001E4735 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DCE722B61CD4D81F001E4735 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DCE722B51CD4D81F001E4735 /* 新浪微博(Swift).app */,
+				DCE722C91CD4D81F001E4735 /* 新浪微博(Swift)Tests.xctest */,
+				DCE722D41CD4D81F001E4735 /* 新浪微博(Swift)UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DCE722B71CD4D81F001E4735 /* 新浪微博(Swift) */ = {
+			isa = PBXGroup;
+			children = (
+				DCE722B81CD4D81F001E4735 /* AppDelegate.swift */,
+				DCE722BA1CD4D81F001E4735 /* ViewController.swift */,
+				DCE722BC1CD4D81F001E4735 /* Main.storyboard */,
+				DCE722BF1CD4D81F001E4735 /* Assets.xcassets */,
+				DCE722C11CD4D81F001E4735 /* LaunchScreen.storyboard */,
+				DCE722C41CD4D81F001E4735 /* Info.plist */,
+			);
+			path = "新浪微博(Swift)";
+			sourceTree = "<group>";
+		};
+		DCE722CC1CD4D81F001E4735 /* 新浪微博(Swift)Tests */ = {
+			isa = PBXGroup;
+			children = (
+				DCE722CD1CD4D81F001E4735 /* _____Swift_Tests.swift */,
+				DCE722CF1CD4D81F001E4735 /* Info.plist */,
+			);
+			path = "新浪微博(Swift)Tests";
+			sourceTree = "<group>";
+		};
+		DCE722D71CD4D81F001E4735 /* 新浪微博(Swift)UITests */ = {
+			isa = PBXGroup;
+			children = (
+				DCE722D81CD4D81F001E4735 /* _____Swift_UITests.swift */,
+				DCE722DA1CD4D81F001E4735 /* Info.plist */,
+			);
+			path = "新浪微博(Swift)UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DCE722B41CD4D81F001E4735 /* 新浪微博(Swift) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCE722DD1CD4D81F001E4735 /* Build configuration list for PBXNativeTarget "新浪微博(Swift)" */;
+			buildPhases = (
+				DCE722B11CD4D81F001E4735 /* Sources */,
+				DCE722B21CD4D81F001E4735 /* Frameworks */,
+				DCE722B31CD4D81F001E4735 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "新浪微博(Swift)";
+			productName = "新浪微博(Swift)";
+			productReference = DCE722B51CD4D81F001E4735 /* 新浪微博(Swift).app */;
+			productType = "com.apple.product-type.application";
+		};
+		DCE722C81CD4D81F001E4735 /* 新浪微博(Swift)Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCE722E01CD4D81F001E4735 /* Build configuration list for PBXNativeTarget "新浪微博(Swift)Tests" */;
+			buildPhases = (
+				DCE722C51CD4D81F001E4735 /* Sources */,
+				DCE722C61CD4D81F001E4735 /* Frameworks */,
+				DCE722C71CD4D81F001E4735 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DCE722CB1CD4D81F001E4735 /* PBXTargetDependency */,
+			);
+			name = "新浪微博(Swift)Tests";
+			productName = "新浪微博(Swift)Tests";
+			productReference = DCE722C91CD4D81F001E4735 /* 新浪微博(Swift)Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DCE722D31CD4D81F001E4735 /* 新浪微博(Swift)UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCE722E31CD4D81F001E4735 /* Build configuration list for PBXNativeTarget "新浪微博(Swift)UITests" */;
+			buildPhases = (
+				DCE722D01CD4D81F001E4735 /* Sources */,
+				DCE722D11CD4D81F001E4735 /* Frameworks */,
+				DCE722D21CD4D81F001E4735 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DCE722D61CD4D81F001E4735 /* PBXTargetDependency */,
+			);
+			name = "新浪微博(Swift)UITests";
+			productName = "新浪微博(Swift)UITests";
+			productReference = DCE722D41CD4D81F001E4735 /* 新浪微博(Swift)UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DCE722AD1CD4D81F001E4735 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = com.hao;
+				TargetAttributes = {
+					DCE722B41CD4D81F001E4735 = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+					DCE722C81CD4D81F001E4735 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = DCE722B41CD4D81F001E4735;
+					};
+					DCE722D31CD4D81F001E4735 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = DCE722B41CD4D81F001E4735;
+					};
+				};
+			};
+			buildConfigurationList = DCE722B01CD4D81F001E4735 /* Build configuration list for PBXProject "新浪微博(Swift)" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DCE722AC1CD4D81F001E4735;
+			productRefGroup = DCE722B61CD4D81F001E4735 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DCE722B41CD4D81F001E4735 /* 新浪微博(Swift) */,
+				DCE722C81CD4D81F001E4735 /* 新浪微博(Swift)Tests */,
+				DCE722D31CD4D81F001E4735 /* 新浪微博(Swift)UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DCE722B31CD4D81F001E4735 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCE722C31CD4D81F001E4735 /* LaunchScreen.storyboard in Resources */,
+				DCE722C01CD4D81F001E4735 /* Assets.xcassets in Resources */,
+				DCE722BE1CD4D81F001E4735 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCE722C71CD4D81F001E4735 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCE722D21CD4D81F001E4735 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DCE722B11CD4D81F001E4735 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCE722BB1CD4D81F001E4735 /* ViewController.swift in Sources */,
+				DCE722B91CD4D81F001E4735 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCE722C51CD4D81F001E4735 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCE722CE1CD4D81F001E4735 /* _____Swift_Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCE722D01CD4D81F001E4735 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCE722D91CD4D81F001E4735 /* _____Swift_UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DCE722CB1CD4D81F001E4735 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DCE722B41CD4D81F001E4735 /* 新浪微博(Swift) */;
+			targetProxy = DCE722CA1CD4D81F001E4735 /* PBXContainerItemProxy */;
+		};
+		DCE722D61CD4D81F001E4735 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DCE722B41CD4D81F001E4735 /* 新浪微博(Swift) */;
+			targetProxy = DCE722D51CD4D81F001E4735 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DCE722BC1CD4D81F001E4735 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DCE722BD1CD4D81F001E4735 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DCE722C11CD4D81F001E4735 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DCE722C21CD4D81F001E4735 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DCE722DB1CD4D81F001E4735 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DCE722DC1CD4D81F001E4735 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DCE722DE1CD4D81F001E4735 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "新浪微博(Swift)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.-----Swift-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DCE722DF1CD4D81F001E4735 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "新浪微博(Swift)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.-----Swift-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DCE722E11CD4D81F001E4735 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "新浪微博(Swift)Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.-----Swift-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/新浪微博(Swift).app/新浪微博(Swift)";
+			};
+			name = Debug;
+		};
+		DCE722E21CD4D81F001E4735 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "新浪微博(Swift)Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.-----Swift-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/新浪微博(Swift).app/新浪微博(Swift)";
+			};
+			name = Release;
+		};
+		DCE722E41CD4D81F001E4735 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "新浪微博(Swift)UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.-----Swift-UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "新浪微博(Swift)";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		DCE722E51CD4D81F001E4735 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "新浪微博(Swift)UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.-----Swift-UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "新浪微博(Swift)";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DCE722B01CD4D81F001E4735 /* Build configuration list for PBXProject "新浪微博(Swift)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCE722DB1CD4D81F001E4735 /* Debug */,
+				DCE722DC1CD4D81F001E4735 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCE722DD1CD4D81F001E4735 /* Build configuration list for PBXNativeTarget "新浪微博(Swift)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCE722DE1CD4D81F001E4735 /* Debug */,
+				DCE722DF1CD4D81F001E4735 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DCE722E01CD4D81F001E4735 /* Build configuration list for PBXNativeTarget "新浪微博(Swift)Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCE722E11CD4D81F001E4735 /* Debug */,
+				DCE722E21CD4D81F001E4735 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DCE722E31CD4D81F001E4735 /* Build configuration list for PBXNativeTarget "新浪微博(Swift)UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCE722E41CD4D81F001E4735 /* Debug */,
+				DCE722E51CD4D81F001E4735 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DCE722AD1CD4D81F001E4735 /* Project object */;
+}
